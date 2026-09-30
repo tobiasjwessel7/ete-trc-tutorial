@@ -1,0 +1,437 @@
+{
+  "revision_date": "2026-09-29",
+  "scope": "Presentation-only revision of Figures 1-3; Figure 4 retained.",
+  "full_simulation_and_estimation_pipeline_rerun": false,
+  "original_protected_files": [
+    {
+      "file": "data/simulated_two_wave.csv",
+      "sha256": "5bc46ec9d8eb8d679a67d15ab665d2adaa08e53647283f3f487f61b2c580d1c4",
+      "byte_identical_to_original": true
+    },
+    {
+      "file": "results/ete_heterogeneity_grid.csv",
+      "sha256": "30de190416b0041ae26a1a73505b8a1f959e3e324044aba4f20171aa0bca3dbe",
+      "byte_identical_to_original": true
+    },
+    {
+      "file": "results/ete_power_grid.csv",
+      "sha256": "6a10a83ec729b90df5525e052fc728aa85f4564cc51f52378cd0677bee39dce8",
+      "byte_identical_to_original": true
+    },
+    {
+      "file": "results/validation_ete.csv",
+      "sha256": "da09f21dbb39ae87033fe6a9606f1b6c6a5c46f612c8f4f1359beec649d66173",
+      "byte_identical_to_original": true
+    },
+    {
+      "file": "results/validation_trc.csv",
+      "sha256": "a4f73e9b766985b6de39d88cdeb02284e26626fa2c3dea94a2d4f17d4a964d2f",
+      "byte_identical_to_original": true
+    },
+    {
+      "file": "results/validation_trc_grid.csv",
+      "sha256": "8331d33dc6b13aceb1ffc772a74e3b24386e2bb6e12420a856c5d5abd63757e7",
+      "byte_identical_to_original": true
+    },
+    {
+      "file": "results/worked_example_results.csv",
+      "sha256": "30d5bff564d81c4345eb27829a52819cf93e3c492637d73b87bb4204717ac8ad",
+      "byte_identical_to_original": true
+    },
+    {
+      "file": "materials/protocol_template.md",
+      "sha256": "b1f39a43d2b6ec84e81ead9c5667d6130b9253871bc5107c58e16e9565231cdc",
+      "byte_identical_to_original": true
+    },
+    {
+      "file": "materials/reporting_checklist.md",
+      "sha256": "ff23c5265d684c4980524092a8e28541684daa409b4445a8f492c583594edac1",
+      "byte_identical_to_original": true
+    },
+    {
+      "file": "code/estimate_ete_trc.R",
+      "sha256": "3b5318e20c1f2ee4a99ee5189bda0f1904549638a5296dbd231f3ca8812f6123",
+      "byte_identical_to_original": true
+    },
+    {
+      "file": "code/sim_power_ete.py",
+      "sha256": "32ad6a85f98b98a662c8c54e5be73f86b13cbf1c26186c07904e11bae952849e",
+      "byte_identical_to_original": true
+    },
+    {
+      "file": "code/sim_power_heterogeneity.py",
+      "sha256": "b0e3c306054d33330f8c0c9585db919d92683e1478d3fa4d8e3a34e2903bb244",
+      "byte_identical_to_original": true
+    },
+    {
+      "file": "code/simulate_dataset.py",
+      "sha256": "d8e233c7402300c43331dc68456a5950e0ed54686e45cf68edd33f17236a4c92",
+      "byte_identical_to_original": true
+    },
+    {
+      "file": "code/validate_glmm.R",
+      "sha256": "863fad790bfbbe159ede5f538481fb75b0b0d1b4158cac1d277bbdda0879a36b",
+      "byte_identical_to_original": true
+    },
+    {
+      "file": "code/validate_trc_grid.R",
+      "sha256": "6a1dd719c3ff23e89a2bf05149b4991a24ef1a87c8f20172ccadf2b54f2dd378",
+      "byte_identical_to_original": true
+    },
+    {
+      "file": "LICENSE",
+      "sha256": "f2a52f06645f6203ad3f01f303d174addd79fea36bafd07631b81ebaf9bf240f",
+      "byte_identical_to_original": true
+    },
+    {
+      "file": "figures/fig4_diagnostic_space.pdf",
+      "sha256": "a01a42b3d31f0b512c5492d23a2da1aec6f72044b40ad36e2ee28f44b1285c9f",
+      "byte_identical_to_original": true
+    },
+    {
+      "file": "figures/fig4_diagnostic_space.png",
+      "sha256": "33b2b967b27e4d7ce01ba6aceb636fbd5fa7f54848bcea86736b431a01379d67",
+      "byte_identical_to_original": true
+    },
+    {
+      "file": "figures/fig4_diagnostic_space.tiff",
+      "sha256": "f29ffdb5d63b6736753c66670b001eefbb8f1e774726875455b7c72e1c3d1a6f",
+      "byte_identical_to_original": true
+    }
+  ],
+  "original_protected_file_count": 19,
+  "figure3_series_count": 11,
+  "figure3_data_point_count": 59,
+  "figure3_series_checks": [
+    {
+      "panel": "A",
+      "series": "True ETE = 5 pp",
+      "points": 7,
+      "matches_original_source": true
+    },
+    {
+      "panel": "A",
+      "series": "True ETE = 3 pp",
+      "points": 7,
+      "matches_original_source": true
+    },
+    {
+      "panel": "A",
+      "series": "Equivalence; true ETE = 0",
+      "points": 7,
+      "matches_original_source": true
+    },
+    {
+      "panel": "B",
+      "series": "16 items",
+      "points": 7,
+      "matches_original_source": true
+    },
+    {
+      "panel": "B",
+      "series": "24 items",
+      "points": 7,
+      "matches_original_source": true
+    },
+    {
+      "panel": "B",
+      "series": "32 items",
+      "points": 7,
+      "matches_original_source": true
+    },
+    {
+      "panel": "B",
+      "series": "24 items; participant SD = 1.6",
+      "points": 3,
+      "matches_original_source": true
+    },
+    {
+      "panel": "B",
+      "series": "16 items; item-varying effect (SD = 0.3)",
+      "points": 4,
+      "matches_original_source": true
+    },
+    {
+      "panel": "B",
+      "series": "32 items; item-varying effect (SD = 0.3)",
+      "points": 4,
+      "matches_original_source": true
+    },
+    {
+      "panel": "C",
+      "series": "Items as a random sample",
+      "points": 3,
+      "matches_original_source": true
+    },
+    {
+      "panel": "C",
+      "series": "Items ignored",
+      "points": 3,
+      "matches_original_source": true
+    }
+  ],
+  "plotting_smoke_test": {
+    "command": "python3 code/make_figures.py (all four figures, fresh output directory)",
+    "returncode": 0,
+    "stdout": "Figure 1 written to <temporary-reproduction-copy>/figures\nFigure 2 written to <temporary-reproduction-copy>/figures\nFigure 3 written to <temporary-reproduction-copy>/figures\nFigure 4 written to <temporary-reproduction-copy>/figures",
+    "stderr": "",
+    "corrected_pngs_pixel_identical_on_second_run": [
+      "fig1_two_estimands",
+      "fig2_protocol",
+      "fig3_power_precision"
+    ],
+    "legacy_figure4_regenerated_png_pixel_identical_to_supplied_original": true
+  },
+  "layout_checks": [
+    {
+      "figure": "fig1_two_estimands",
+      "visible_text_objects": 17,
+      "page_and_box_bounds": "pass",
+      "errors": []
+    },
+    {
+      "figure": "fig2_protocol",
+      "visible_text_objects": 25,
+      "page_and_box_bounds": "pass",
+      "errors": []
+    },
+    {
+      "figure": "panels/fig3A_power",
+      "visible_text_objects": 18,
+      "page_and_box_bounds": "pass",
+      "errors": []
+    },
+    {
+      "figure": "panels/fig3B_precision_ete",
+      "visible_text_objects": 22,
+      "page_and_box_bounds": "pass",
+      "errors": []
+    },
+    {
+      "figure": "panels/fig3C_precision_trc",
+      "visible_text_objects": 14,
+      "page_and_box_bounds": "pass",
+      "errors": []
+    }
+  ],
+  "output_checks": [
+    {
+      "file": "figures/fig1_two_estimands.pdf",
+      "pages": 1,
+      "vector_text_and_graphics": true,
+      "width_mm": 170.0,
+      "height_mm": 86.0,
+      "pdf_text_within_page": true,
+      "png": {
+        "pixels": [
+          2007,
+          1015
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "compression": null
+      },
+      "tiff": {
+        "pixels": [
+          4015,
+          2031
+        ],
+        "dpi": [
+          600.0,
+          600.0
+        ],
+        "compression": "tiff_lzw"
+      }
+    },
+    {
+      "file": "figures/fig2_protocol.pdf",
+      "pages": 1,
+      "vector_text_and_graphics": true,
+      "width_mm": 170.0,
+      "height_mm": 118.0,
+      "pdf_text_within_page": true,
+      "png": {
+        "pixels": [
+          2007,
+          1393
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "compression": null
+      },
+      "tiff": {
+        "pixels": [
+          4015,
+          2787
+        ],
+        "dpi": [
+          600.0,
+          600.0
+        ],
+        "compression": "tiff_lzw"
+      }
+    },
+    {
+      "file": "figures/fig3_power_precision.pdf",
+      "pages": 1,
+      "vector_text_and_graphics": true,
+      "width_mm": 170.0,
+      "height_mm": 192.0,
+      "pdf_text_within_page": true,
+      "png": {
+        "pixels": [
+          2007,
+          2266
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "compression": null
+      },
+      "tiff": {
+        "pixels": [
+          4015,
+          4535
+        ],
+        "dpi": [
+          600.0,
+          600.0
+        ],
+        "compression": "tiff_lzw"
+      }
+    },
+    {
+      "file": "figures/fig4_diagnostic_space.pdf",
+      "pages": 1,
+      "vector_text_and_graphics": true,
+      "width_mm": 101.255,
+      "height_mm": 80.692,
+      "pdf_text_within_page": true,
+      "png": {
+        "pixels": [
+          1195,
+          951
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "compression": null
+      },
+      "tiff": {
+        "pixels": [
+          2392,
+          1901
+        ],
+        "dpi": [
+          600.0,
+          600.0
+        ],
+        "compression": "tiff_lzw"
+      }
+    },
+    {
+      "file": "figures/panels/fig3A_power.pdf",
+      "pages": 1,
+      "vector_text_and_graphics": true,
+      "width_mm": 170.0,
+      "height_mm": 58.0,
+      "pdf_text_within_page": true,
+      "png": {
+        "pixels": [
+          2007,
+          685
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "compression": null
+      },
+      "tiff": {
+        "pixels": [
+          4015,
+          1370
+        ],
+        "dpi": [
+          600.0,
+          600.0
+        ],
+        "compression": "tiff_lzw"
+      }
+    },
+    {
+      "file": "figures/panels/fig3B_precision_ete.pdf",
+      "pages": 1,
+      "vector_text_and_graphics": true,
+      "width_mm": 170.0,
+      "height_mm": 70.0,
+      "pdf_text_within_page": true,
+      "png": {
+        "pixels": [
+          2007,
+          826
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "compression": null
+      },
+      "tiff": {
+        "pixels": [
+          4015,
+          1653
+        ],
+        "dpi": [
+          600.0,
+          600.0
+        ],
+        "compression": "tiff_lzw"
+      }
+    },
+    {
+      "file": "figures/panels/fig3C_precision_trc.pdf",
+      "pages": 1,
+      "vector_text_and_graphics": true,
+      "width_mm": 170.0,
+      "height_mm": 58.0,
+      "pdf_text_within_page": true,
+      "png": {
+        "pixels": [
+          2007,
+          685
+        ],
+        "dpi": [
+          299.9994,
+          299.9994
+        ],
+        "compression": null
+      },
+      "tiff": {
+        "pixels": [
+          4015,
+          1370
+        ],
+        "dpi": [
+          600.0,
+          600.0
+        ],
+        "compression": "tiff_lzw"
+      }
+    }
+  ],
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "Pillow": "12.3.0",
+    "pypdf": "5.9.0"
+  }
+}

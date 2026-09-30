@@ -24,6 +24,7 @@ Two estimands, a two-wave protocol, and simulation-based power for evaluating AI
     python3 sim_power_ete.py          # ~2 min
     python3 sim_power_heterogeneity.py # ~3 min
     Rscript validate_glmm.R           # ~20-30 min (100 glmer fits)
+    Rscript validate_trc_grid.R 150 "300" "8,16,32"  # paper grid, ~30-45 min
     python3 simulate_dataset.py
     Rscript estimate_ete_trc.R ../data/simulated_two_wave.csv 5
     python3 make_figures.py
@@ -34,3 +35,34 @@ TRC precision with more replications (used in the paper, n = 300):  Rscript vali
 Larger grid, optional:  Rscript validate_trc_grid.R 200 "150,300,600" "8,16,32"   (1-3 h)
 Data-generating parameters (sigma_u = 1.2, sigma_v = 1.0, sigma_e = 1.3, rho = 0.5, p_comparator = .62)
 are arguments of one_sim() in sim_power_ete.py and constants at the top of validate_glmm.R; replace with pilot estimates.
+
+## Figure revision — 29 September 2026
+
+This is a presentation-only revision responding to the figure readability review.
+Figures 1–3 have been redrawn from the same definitions, protocol and stored result
+CSVs. The supplied Figure 4 files are unchanged. No simulation, estimation or
+validation script, source dataset, result CSV, protocol material or licence was changed.
+
+To regenerate **only the corrected figures**, from the repository root:
+
+```bash
+python3 -m pip install -r requirements.txt
+python3 code/make_figures.py --figures 1 2 3
+```
+
+`pypdf` is the one additional Python dependency. It assembles the three independently
+drawn Figure 3 panels into a single vector PDF; the raster versions are assembled
+without resampling. This does not require rerunning the simulations or R analyses.
+Omit `--figures 1 2 3` to regenerate all four figures from the available result CSVs.
+
+Figures 1–3 are exported at **170 mm width**, with 8-point body/axis/legend text
+and 8.5-point bold headings. Do not shrink them back to the old Figure 3 height.
+Figure 3 is now 170 × 192 mm, with panels A, B and C arranged vertically and legends
+outside the data areas. All original data series are retained. Its individual panels
+are also available in `figures/panels/` as PDF, PNG and TIFF.
+
+`qa/figure_layout_checks.json` records the automated text-boundary and legend-position
+checks from the most recent figure generation. `qa/figure3_plotted_values.csv` lists
+every plotted data point and its source CSV. `qa/figure_revision_checks.json` documents
+the delivered revision's checks, including original-file integrity and the scope of
+execution. See `FIGURE_REVISION_NOTES.md` for the feedback-to-change mapping.

@@ -1,0 +1,60 @@
+panel,series,source,x_variable,y_variable,x,y
+A,True ETE = 5 pp,ete_power_grid.csv,n_per_arm,power_superiority,150.0,0.689
+A,True ETE = 5 pp,ete_power_grid.csv,n_per_arm,power_superiority,250.0,0.88
+A,True ETE = 5 pp,ete_power_grid.csv,n_per_arm,power_superiority,400.0,0.974
+A,True ETE = 5 pp,ete_power_grid.csv,n_per_arm,power_superiority,600.0,0.998
+A,True ETE = 5 pp,ete_power_grid.csv,n_per_arm,power_superiority,800.0,0.999
+A,True ETE = 5 pp,ete_power_grid.csv,n_per_arm,power_superiority,1000.0,1.0
+A,True ETE = 5 pp,ete_power_grid.csv,n_per_arm,power_superiority,1250.0,1.0
+A,True ETE = 3 pp,ete_power_grid.csv,n_per_arm,power_superiority,150.0,0.311
+A,True ETE = 3 pp,ete_power_grid.csv,n_per_arm,power_superiority,250.0,0.44
+A,True ETE = 3 pp,ete_power_grid.csv,n_per_arm,power_superiority,400.0,0.645
+A,True ETE = 3 pp,ete_power_grid.csv,n_per_arm,power_superiority,600.0,0.819
+A,True ETE = 3 pp,ete_power_grid.csv,n_per_arm,power_superiority,800.0,0.919
+A,True ETE = 3 pp,ete_power_grid.csv,n_per_arm,power_superiority,1000.0,0.965
+A,True ETE = 3 pp,ete_power_grid.csv,n_per_arm,power_superiority,1250.0,0.987
+A,Equivalence; true ETE = 0,ete_power_grid.csv,n_per_arm,power_equivalence,150.0,0.509
+A,Equivalence; true ETE = 0,ete_power_grid.csv,n_per_arm,power_equivalence,250.0,0.843
+A,Equivalence; true ETE = 0,ete_power_grid.csv,n_per_arm,power_equivalence,400.0,0.979
+A,Equivalence; true ETE = 0,ete_power_grid.csv,n_per_arm,power_equivalence,600.0,0.998
+A,Equivalence; true ETE = 0,ete_power_grid.csv,n_per_arm,power_equivalence,800.0,1.0
+A,Equivalence; true ETE = 0,ete_power_grid.csv,n_per_arm,power_equivalence,1000.0,1.0
+A,Equivalence; true ETE = 0,ete_power_grid.csv,n_per_arm,power_equivalence,1250.0,1.0
+B,16 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,150.0,4.392154912016247
+B,16 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,250.0,3.3881023888514266
+B,16 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,400.0,2.686112872807944
+B,16 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,600.0,2.1871607117132266
+B,16 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,800.0,1.891416740576397
+B,16 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,1000.0,1.6940297943017226
+B,16 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,1250.0,1.513363225346815
+B,24 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,150.0,4.154969658298087
+B,24 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,250.0,3.2134254750178277
+B,24 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,400.0,2.540926380572863
+B,24 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,600.0,2.0734155504769
+B,24 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,800.0,1.7957713981659091
+B,24 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,1000.0,1.6021645718559083
+B,24 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,1250.0,1.4323015640767376
+B,32 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,150.0,4.045809216446235
+B,32 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,250.0,3.124144802650125
+B,32 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,400.0,2.464376614109109
+B,32 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,600.0,2.008426798619759
+B,32 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,800.0,1.7423861021123834
+B,32 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,1000.0,1.5564159448013684
+B,32 items,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,1250.0,1.3928021859788375
+B,24 items; participant SD = 1.6,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,150.0,4.872141123830675
+B,24 items; participant SD = 1.6,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,400.0,2.973273924120445
+B,24 items; participant SD = 1.6,ete_power_grid.csv,n_per_arm,mean_halfwidth_pp,800.0,2.0996138143116263
+B,16 items; item-varying effect (SD = 0.3),ete_heterogeneity_grid.csv,n_per_arm,cr_halfwidth_pp,150.0,5.060650948717592
+B,16 items; item-varying effect (SD = 0.3),ete_heterogeneity_grid.csv,n_per_arm,cr_halfwidth_pp,250.0,4.180975554001258
+B,16 items; item-varying effect (SD = 0.3),ete_heterogeneity_grid.csv,n_per_arm,cr_halfwidth_pp,400.0,3.592971710712572
+B,16 items; item-varying effect (SD = 0.3),ete_heterogeneity_grid.csv,n_per_arm,cr_halfwidth_pp,600.0,3.190575096873141
+B,32 items; item-varying effect (SD = 0.3),ete_heterogeneity_grid.csv,n_per_arm,cr_halfwidth_pp,150.0,4.34869616516648
+B,32 items; item-varying effect (SD = 0.3),ete_heterogeneity_grid.csv,n_per_arm,cr_halfwidth_pp,250.0,3.500704465905824
+B,32 items; item-varying effect (SD = 0.3),ete_heterogeneity_grid.csv,n_per_arm,cr_halfwidth_pp,400.0,2.9375039694066336
+B,32 items; item-varying effect (SD = 0.3),ete_heterogeneity_grid.csv,n_per_arm,cr_halfwidth_pp,600.0,2.5474310917274408
+C,Items as a random sample,validation_trc_grid.csv,probe_items,glmm_hw,8.0,7.10649129638681
+C,Items as a random sample,validation_trc_grid.csv,probe_items,glmm_hw,16.0,5.1636897999545
+C,Items as a random sample,validation_trc_grid.csv,probe_items,glmm_hw,32.0,3.74664331890562
+C,Items ignored,validation_trc_grid.csv,probe_items,paired_hw,8.0,3.22888437077626
+C,Items ignored,validation_trc_grid.csv,probe_items,paired_hw,16.0,2.45767143680421
+C,Items ignored,validation_trc_grid.csv,probe_items,paired_hw,32.0,1.96718237846232

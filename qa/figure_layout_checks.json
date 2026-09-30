@@ -1,0 +1,32 @@
+[
+  {
+    "figure": "fig1_two_estimands",
+    "visible_text_objects": 17,
+    "page_and_box_bounds": "pass",
+    "errors": []
+  },
+  {
+    "figure": "fig2_protocol",
+    "visible_text_objects": 25,
+    "page_and_box_bounds": "pass",
+    "errors": []
+  },
+  {
+    "figure": "panels/fig3A_power",
+    "visible_text_objects": 18,
+    "page_and_box_bounds": "pass",
+    "errors": []
+  },
+  {
+    "figure": "panels/fig3B_precision_ete",
+    "visible_text_objects": 22,
+    "page_and_box_bounds": "pass",
+    "errors": []
+  },
+  {
+    "figure": "panels/fig3C_precision_trc",
+    "visible_text_objects": 14,
+    "page_and_box_bounds": "pass",
+    "errors": []
+  }
+]
